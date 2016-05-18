@@ -54,4 +54,4 @@ Object set null x 46,505,110 ops/sec ±10.24% (83 runs sampled)
 fastest is Object set null
 ```
 
-if you are implementing a in-memore cache, these tests show you should use Object get/set and delete key/value by `object[key] = null`
+if you are implementing a in-memory cache, these tests show you should use Object get/set and delete key/value by `object[key] = null`
